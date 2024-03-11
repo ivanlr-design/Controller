@@ -11,5 +11,4 @@ def ConnectToClient(host, port):
         Log_print.Success(f"Succesfully connected to {host}:{port}")
         return client_socket
     except Exception as e:
-        Log_print.Error(f"Can't connect to: {host}:{port}, error: {e}")
         return False

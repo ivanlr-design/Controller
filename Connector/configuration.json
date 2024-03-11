@@ -1,0 +1,6 @@
+{
+    "Connection":{
+        "ConnectIP": "192.168.68.103",
+        "ConnectPort": 4559
+    }
+}
